@@ -28,7 +28,7 @@ export default function NavBar() {
                         About Me!
                     </NavLink>
                 </nav>
-                <div>
+                <div className="inline-flex py-3 px-3 my-6">
                     <SocialIcon url="https://twitter.com/SaeelParulekar" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
                     <SocialIcon url="https://www.linkedin.com/in/saeel-parulekar-79857056/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
                     <SocialIcon url="https://www.instagram.com/saeelparulekar/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
