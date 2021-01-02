@@ -15,10 +15,7 @@ function App() {
         <Route component={Post} path='/post' exact />
         <Route component={Project} path='/project' />
         <Route component={SinglePost} path='/post/:slug' />
-        {/* <Route component={About} path='/about' />
-         */}
-       
-      
+        <Route component={About} path='/about' />
       </Switch>
     </BrowserRouter>
   );
